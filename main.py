@@ -1,3 +1,7 @@
+print("Hello, World!")
+print("Hello, HamsterKombatBot!")
+
+
 import asyncio
 from contextlib import suppress
 
@@ -11,3 +15,5 @@ async def main():
 if __name__ == '__main__':
     with suppress(KeyboardInterrupt, RuntimeError, RuntimeWarning):
         asyncio.run(main())
+
+print("Hello, World!")

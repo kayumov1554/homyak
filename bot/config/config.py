@@ -28,8 +28,8 @@ class Settings(BaseSettings):
     APPLY_DAILY_MINI_GAME: bool = True
 
     SLEEP_MINI_GAME_TILES: list[int] = [1, 2]
-    SCORE_MINI_GAME_TILES: list[int] = [15000, 15001]
-    GAMES_COUNT: list[int] = [1, 10]
+    SCORE_MINI_GAME_TILES: list[int] = [5000, 6000]
+    GAMES_COUNT: list[int] = [50, 60]
 
     AUTO_COMPLETE_TASKS: bool = True
 
